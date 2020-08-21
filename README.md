@@ -1,4 +1,4 @@
-用composer一步一步新建一个简单的PHP MVC 框架
+用composer一步一步创建一个简单的PHP MVC 框架
 
 ## 框架litphp
 
