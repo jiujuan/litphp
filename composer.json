@@ -1,0 +1,19 @@
+{
+    "name": "jiujuan/litphp",
+    "description": "name:little+php, a php framework",
+    "require": {
+        "nikic/fast-route": "*",
+        "illuminate/database": "6.18.34",
+        "symfony/http-foundation": "4.3",
+        "league/plates": "3.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers",
+            "app/models"
+        ],
+        "files": [
+            "helpers/helpers.php"
+        ]
+    }
+}
