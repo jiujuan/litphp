@@ -57,11 +57,10 @@ $routes = FastRoute\simpleDispatcher(function (RouteCollector $r) {
 ```
 
 #### 控制器
-router.php 里面有一个路由到控制操作 `IndexController@Index` ，新建一个IndexConterooler.php 控制器文件。
+router.php 里面有一个路由到控制操作 `IndexController@Index` ，新建一个IndexController.php 控制器文件。
 在 app 目录下新建控制器目录controllers。
 ![litphp02.png](./public/imgs/litphp01.png)
 
-增加 controller
 在 controllers 目录下新建基控制器 BaseController.php, 代码如下：
 
 ```php
@@ -114,9 +113,9 @@ $capsule->bootEloquent();
 ```
 
 ### model文件
- 在app文件夹下新建model文件夹。
+ 在app文件夹下新建models文件夹。
 
- 在 models下新建文件 Article.php，代码如下：
+ 在 models 下新建文件 Article.php，代码如下：
 ```php
 <?php
 namespace app\models;
@@ -211,3 +210,4 @@ $r->get("/getTpl", 'TplDemoController@getTpl');
 
 ![litphp03.png](./public/imgs/litphp03.png)
 
+**说明：** 如果以上代码或者说明文字有错误，还请以[github](https://github.com/jiujuan/litphp)里的代码为准
